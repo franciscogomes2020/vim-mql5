@@ -172,6 +172,7 @@ syn match       mql5Define         "#define"
 syn match       mql5Define         "#property\s\+\(copyright\|link\|stacksize\|library\|indicator_chart_window\|indicator_separate_window\|indicator_buffers\|indicator_minimum\|indicator_maximum\|indicator_color[1-8]\|indicator_width[1-8]\|indicator_style[1-8]\|indicator_level[1-8]\|indicator_levelcolor\|indicator_levelwidth\|indicator_levelstyle\|show_confirm\|show_inputs\)\(\s\+\|$\)"
 
 syn keyword mql5Type    bool color datetime double ulong int string void
+syn keyword mql5Class   CAccountInfo CSymbolInfo COrderInfo CHistoryOrderInfo CPositionInfo CDealInfo CTrade CTerminalInfo
 
 syn keyword mql5Structure extern static
 
@@ -318,6 +319,7 @@ hi def link mql5Error Error
 hi def link mql5Statement Statement
 hi def link mql5PreCondit PreCondit
 hi def link mql5Type Type
+hi def link mql5Class Type
 hi def link mql5Constant Constant
 hi def link mql5Variable Constant
 hi def link mql5Series Constant
