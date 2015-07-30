@@ -1,24 +1,34 @@
-## QUICK HOWTO
+## Vim MQL5
 
-How to add mql5 syntax file into your vim configuration:
+### Install
+#### Vundle
 
-### Traditional way
+[Vundle](https://github.com/VundleVim/Vundle.vim) is a vim plugin manager inspired 
+by the likes of [Bundler](http://bundler.io/) for [Ruby](https://www.ruby-lang.org/en/)
 
-First, clone this repository to your local.
+From within your `.vimrc` add the new plugin configuration
 
+```vim
+call vundle#begin()
+  " Other vim plugins...
+
+  Plugin 'https://github.com/rupurt/vim-mql5'
+call vundle#end()
 ```
+
+#### Manual
+
+Clone the repository to your local machine
+
+```bash
 $ cd ~/.vim/
 $ git clone https://github.com/rupurt/vim-mql5.git
 ```
 
-It's also ok that download zip file and extract that.
+You can also download the zip file and extract it
 
-Then, open your `.vimrc` file and write a following line to add it to runtimepath.
+Open your `.vimrc` file and add the following line
 
-```
+```vim
 set runtimepath+=expand('~/.vim/vim-mql5')
 ```
-
-### Modern way
-
-I recommend to use plugin-manager plugin like `NeoBundle` or `Vundle`.
