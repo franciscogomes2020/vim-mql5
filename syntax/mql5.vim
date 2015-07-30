@@ -12,10 +12,9 @@ endif
 
 " A bunch of useful keywords
 syn keyword mql5Statement break return continue
-syn keyword mql5Label case default
+syn keyword mql5Label case default const
 syn keyword mql5Conditional if else switch
 syn keyword mql5Repeat while for
-
 syn keyword mql5Todo contained TODO FIXME XXX
 
 " It's easy to accidentally add a space after a backslash that was intended
@@ -172,7 +171,7 @@ syn match       mql5Define         "#import"
 syn match       mql5Define         "#define"
 syn match       mql5Define         "#property\s\+\(copyright\|link\|stacksize\|library\|indicator_chart_window\|indicator_separate_window\|indicator_buffers\|indicator_minimum\|indicator_maximum\|indicator_color[1-8]\|indicator_width[1-8]\|indicator_style[1-8]\|indicator_level[1-8]\|indicator_levelcolor\|indicator_levelwidth\|indicator_levelstyle\|show_confirm\|show_inputs\)\(\s\+\|$\)"
 
-syn keyword mql5Type  bool color datetime double int string void
+syn keyword mql5Type    bool color datetime double ulong int string void
 
 syn keyword mql5Structure extern static
 
