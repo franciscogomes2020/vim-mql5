@@ -229,6 +229,7 @@ syn keyword     mql5Function       StringConcatenate StringFind StringGetChar St
 syn keyword     mql5Function       iAC iAD iAlligator iADX iATR iAO iBearsPower iBands iBandsOnArray iBullsPower iCCI iCCIOnArray iCustom iDeMarker iEnvelopes iEnvelopesOnArray iForce iFractals iGator iIchimoku iBWMFI iMomentum iMomentumOnArray iMFI iMA iMAOnArray iOsMA iMACD iOBV iSAR iRSI iRSIOnArray iRVI iStdDev iStdDevOnArray iStochastic iWPR
 syn keyword     mql5Function       iBars iBarShift iClose iHigh iHighest iLow iLowest iOpen iTime iVolume
 syn keyword     mql5Function       OrderClose OrderCloseBy OrderClosePrice OrderCloseTime OrderComment OrderCommission OrderDelete OrderExpiration OrderLots OrderMagimql5Number OrderModify OrderOpenPrice OrderOpenTime OrderPrint OrderProfit OrderSelect OrderSend OrdersHistoryTotal OrderStopLoss OrdersTotal OrderSwap OrderSymbol OrderTakeProfit OrderTicket OrderType
+syn keyword     mql5Function       PositionsTotal
 syn keyword     mql5Function       HideTestIndicators Period RefreshRates Symbol WindowBarsPerChart WindowExpertName WindowFind WindowFirstVisibleBar WindowHandle WindowIsVisible WindowOnDropped WindowPriceMax WindowPriceMin WindowPriceOnDropped WindowRedraw WindowScreenShot WindowTimeOnDropped WindowsTotal WindowXOnDropped WindowYOnDropped
 syn keyword     mql5Obsolete      BarsPerWindow ClientTerminalName CurTime CompanyName FirstVisibleBar Highest HistoryTotal LocalTime Lowest ObjectsRedraw PriceOnDropped ScreenShot ServerAddress TimeOnDropped       
 
