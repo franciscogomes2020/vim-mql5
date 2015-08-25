@@ -15,6 +15,7 @@ syn keyword mql5Statement break return continue
 syn keyword mql5Label case default const
 syn keyword mql5Conditional if else switch
 syn keyword mql5Repeat while for
+syn keyword mql5OO new delete class struct
 syn keyword mql5Todo contained TODO FIXME XXX
 
 " It's easy to accidentally add a space after a backslash that was intended
@@ -295,6 +296,7 @@ hi def link mql5CppString mql5String
 hi def link mql5CommentL mql5Comment
 hi def link mql5CommentStart mql5Comment
 hi def link mql5Label Label
+hi def link mql5OO Label
 hi def link mql5UserLabel Label
 hi def link mql5Conditional Conditional
 hi def link mql5Repeat Repeat
