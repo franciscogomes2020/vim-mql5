@@ -172,10 +172,10 @@ syn match       mql5Define         "#import"
 syn match       mql5Define         "#define"
 syn match       mql5Define         "#property\s\+\(copyright\|link\|stacksize\|library\|indicator_chart_window\|indicator_separate_window\|indicator_buffers\|indicator_minimum\|indicator_maximum\|indicator_color[1-8]\|indicator_width[1-8]\|indicator_style[1-8]\|indicator_level[1-8]\|indicator_levelcolor\|indicator_levelwidth\|indicator_levelstyle\|show_confirm\|show_inputs\)\(\s\+\|$\)"
 
-syn keyword mql5Type    bool color datetime double ulong int uint string void
+syn keyword mql5Type    bool color datetime double long ulong int uint string void
 syn keyword mql5Class   CAccountInfo CExpert CExpertBase CExpertSignal CExpertTrailing CExpertMoney CSymbolInfo COrderInfo CHistoryOrderInfo CPositionInfo CDealInfo CTrade CTerminalInfo
 
-syn keyword mql5Structure extern static
+syn keyword mql5Structure extern static virtual
 
 syn keyword     mql5Constant       ANCHOR_LEFT_UPPER ANCHOR_LEFT ANCHOR_LEFT_LOWER ANCHOR_LOWER ANCHOR_RIGHT_LOWER ANCHOR_RIGHT ANCHOR_RIGHT_UPPER ANCHOR_UPPER ANCHOR_CENTER
 syn keyword     mql5Constant       MODE_OPEN MODE_LOW MODE_HIGH MODE_CLOSE MODE_VOLUME MODE_TIME
